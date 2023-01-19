@@ -8,7 +8,7 @@ interface Props {
 	buttonText: string;
 }
 
-const MyModal: React.FC<Props> = ({ title, children, buttonText }) => {
+const Modal: React.FC<Props> = ({ title, children, buttonText }) => {
 	const [open, setOpen] = useState(false);
 
 	const handleOpen = () => {
@@ -37,4 +37,4 @@ const MyModal: React.FC<Props> = ({ title, children, buttonText }) => {
 	);
 };
 
-export default MyModal;
+export default Modal;
