@@ -5,8 +5,8 @@ Material-UI based Git Submodule Repo.
 
 Write the following command to the terminal while you are at the root of the project
 
-`bash`
-git submodule add https://github.com/muum/global-component-library src/components/shared
+`git submodule add https://github.com/muum/global-component-library src/components/shared`
+
 
 
 # How It Works?
